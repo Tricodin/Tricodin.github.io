@@ -410,7 +410,7 @@
         -------------------------------------*/
         var eventCounter = $('#countdown');
         if (eventCounter.length) {
-            eventCounter.countdown('2020/06/03', function(e) {
+            eventCounter.countdown('2019/09/14 10:00:00', function(e) {
                 $(this).html(e.strftime("<div class='countdown-section'><h2>%D</h2> <h3>day%!D</h3> </div><div class='countdown-section'><h2>%H</h2> <h3>Hour%!H</h3> </div><div class='countdown-section'><h2>%M</h2> <h3>Minutes</h3> </div><div class='countdown-section'><h2>%S</h2> <h3>Second</h3> </div>"))
 
             });
@@ -534,7 +534,7 @@
                 var mapOptions = {
                     zoom: 15,
                     scrollwheel: false,
-                    center: new google.maps.LatLng(-37.81618, 144.95692),
+                    center: new google.maps.LatLng(47.5749408, -52.7354242),
                     styles: [{
                         stylers: [{
                             saturation: -100
