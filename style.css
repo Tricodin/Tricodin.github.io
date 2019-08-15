@@ -93,7 +93,7 @@ body {
   font-family: 'Roboto', sans-serif;
   vertical-align: baseline;
   background-color: #ffffff;
-  color: #444444;
+  color: #111111;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1553,7 +1553,7 @@ button:hover {
 }
 .title-black p {
   text-transform: inherit;
-  font-weight: 400;
+  font-weight: 500;
 }
 .title-light.color-primary h1,
 .title-regular.color-primary h1,
@@ -1907,6 +1907,9 @@ button:hover {
 }
 .color-light {
   color: #ffffff;
+}
+.color-grey {
+  color: #dddddd;
 }
 .color-dark {
   color: #111111;

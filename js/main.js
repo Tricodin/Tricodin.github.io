@@ -228,7 +228,7 @@
                 }, 1000);
             });
         } else {
-            _this.text('No more item to display');
+            _this.text('No more items to display');
         }
         return false;
     });
