@@ -2406,7 +2406,7 @@ body > .eventalk-tooltip .eventalk-tooltip-bottom:after {
   padding-left: 0;
 }
 #scrollUp {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #630c07;
   bottom: 5px;
   color: #ffffff;
   display: block;
@@ -4941,19 +4941,19 @@ div ~ :last-child .progress-layout2:before {
   background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(6n) th {
-  background-color: #8cc63e;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(7n) th {
-  background-color: #c8190f;
+  background-color: #cd3027;
 }
 .schedule-layout1 tbody tr:nth-child(8n) th {
-  background-color: #fad03b;
+  background-color: #cd3027;
 }
 .schedule-layout1 tbody tr:nth-child(9n) th {
-  background-color: #f50057;
+  background-color: #cd3027;
 }
 .schedule-layout1 tbody tr:nth-child(10n) th {
-  background-color: #00b0ff;
+  background-color: #cd3027;
 }
 .schedule-layout1 tbody tr td {
   vertical-align: middle;
@@ -6878,16 +6878,11 @@ div ~ :last-child .progress-layout2:before {
   display: inline-block;
   max-width: 25rem;
   margin: 0 auto;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
-}
-.sponsonrs-layout1 .sponsonrs-box a:hover img {
-  -webkit-filter: grayscale(0);
 }
 /*======================================================
 [17] Blog Area Style
