@@ -255,6 +255,20 @@
         return false;
     });
 
+    //MAGNIFIC POPUP LOAD CONTENT VIA AJAX
+    $('.html-popup').magnificPopup({type: 'ajax'});
+
+    //MAGNIFIC POPUP IMAGE
+    $('.image-popup').magnificPopup({
+        type:'image',
+        gallery: {
+            enabled: true,
+            navigateByImgClick: true,
+            preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+        },
+
+    });
+
     /*-------------------------------------
      jQuery MeanMenu activation code
      --------------------------------------*/
