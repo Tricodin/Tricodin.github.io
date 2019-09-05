@@ -5773,7 +5773,7 @@ div ~ :last-child .progress-layout2:before {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(76, 24, 100, 0.8);
+  background: rgba(200, 25, 15, 0.8);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease-out;
