@@ -4929,7 +4929,7 @@ div ~ :last-child .progress-layout2:before {
   background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(3n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(4n) th {
   background-color: #cd3027;
@@ -4944,14 +4944,18 @@ div ~ :last-child .progress-layout2:before {
   background-color: #cd3027;
 }
 .schedule-layout1 tbody tr:nth-child(8n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(9n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(10n) th {
   background-color: #cd3027;
 }
+.schedule-layout1 tbody tr:nth-child(11n) th {
+  background-color: #8b110a;
+}
+
 .schedule-layout1 tbody tr td {
   vertical-align: middle;
   display: table-cell;
@@ -6890,8 +6894,6 @@ div ~ :last-child .progress-layout2:before {
 
 
 
-
-
 /*======================================================
 [17] Blog Area Style
 =======================================================*/
@@ -7412,7 +7414,7 @@ div ~ :last-child .progress-layout2:before {
 }
 
 #venue .venue {
-  background-image: url('img/figure/Campus_above.jpg');
+  background-image: url('img/figure/john-hearn-bruneau-centre-dusk.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
