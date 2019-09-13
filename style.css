@@ -3472,7 +3472,6 @@ span.menu-trigger i {
   font-weight: 700;
   letter-spacing: 2px;
   font-family: 'Roboto', sans-serif;
-  position: relative;
   display: inline-block;
 }
 .slider-layout1 .slide-1 .slider-med-text p {
@@ -4041,7 +4040,6 @@ div ~ :last-child .progress-layout2:before {
 .upcoming-event-layout2 {
   margin: 0 auto;
   text-align: center;
-  background-image: url('img/figure/figure8.png');
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
@@ -4931,7 +4929,7 @@ div ~ :last-child .progress-layout2:before {
   background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(3n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(4n) th {
   background-color: #cd3027;
@@ -4946,14 +4944,18 @@ div ~ :last-child .progress-layout2:before {
   background-color: #cd3027;
 }
 .schedule-layout1 tbody tr:nth-child(8n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(9n) th {
-  background-color: #cd3027;
+  background-color: #8b110a;
 }
 .schedule-layout1 tbody tr:nth-child(10n) th {
   background-color: #cd3027;
 }
+.schedule-layout1 tbody tr:nth-child(11n) th {
+  background-color: #8b110a;
+}
+
 .schedule-layout1 tbody tr td {
   vertical-align: middle;
   display: table-cell;
@@ -5497,7 +5499,7 @@ div ~ :last-child .progress-layout2:before {
 .countdown-layout1 {
   text-align: center;
   padding: 5rem 0 3rem;
-  background-image: url('img/figure/countdown1.jpg');
+  background-image: url('img/figure/red_countdown1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -5540,7 +5542,7 @@ div ~ :last-child .progress-layout2:before {
 .countdown-layout1 .countdown-section h2 {
   font-size: 8rem;
   line-height: 1.1;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: 700;
   position: relative;
   padding: 0 40px;
@@ -5570,7 +5572,7 @@ div ~ :last-child .progress-layout2:before {
   content: "\f111";
   font-family: fontawesome;
   font-size: 12px;
-  color: #aa8306;
+  color: #FFFFFF;
   position: absolute;
   right: -5px;
   -webkit-transform: translateY(-25%);
@@ -5595,7 +5597,7 @@ div ~ :last-child .progress-layout2:before {
   content: "\f111";
   font-family: fontawesome;
   font-size: 12px;
-  color: #aa8306;
+  color: #FFFFFF;
   position: absolute;
   right: -5px;
   -webkit-transform: translateY(-75%);
@@ -5621,7 +5623,7 @@ div ~ :last-child .progress-layout2:before {
   bottom: -20px;
   left: 0;
   right: 0;
-  color: #111111;
+  color: #FFFFFF;
   text-transform: capitalize;
   font-size: 16px;
 }
@@ -5773,7 +5775,7 @@ div ~ :last-child .progress-layout2:before {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(76, 24, 100, 0.8);
+  background: rgba(200, 25, 15, 0.8);
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.5s ease-out;
@@ -6844,6 +6846,9 @@ div ~ :last-child .progress-layout2:before {
 }
 .sponsonrs-layout1 {
   text-align: center;
+  display: block; 
+  justify-content: center; 
+  align-items: center;
 }
 .sponsonrs-layout1 .sponsonrs-row-border {
   margin-bottom: 55px;
@@ -6871,18 +6876,32 @@ div ~ :last-child .progress-layout2:before {
   margin-bottom: 55px;
 }
 .sponsonrs-layout1 .sponsonrs-box a {
-  display: inline-block;
+  display: flex;
+  text-align: center;
 }
 .sponsonrs-layout1 .sponsonrs-box a img {
-  display: inline-block;
-  max-width: 25rem;
-  margin: 0 auto;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
   -webkit-transition: all 0.5s ease-out;
   -moz-transition: all 0.5s ease-out;
   -ms-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
 }
+
+.sponsor {
+  text-align: center;
+}
+
+.sponsor a img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+
+
 /*======================================================
 [17] Blog Area Style
 =======================================================*/
@@ -7403,7 +7422,7 @@ div ~ :last-child .progress-layout2:before {
 }
 
 #venue .venue {
-  background-image: url('img/figure/Campus_above.jpg');
+  background-image: url('img/figure/john-hearn-bruneau-centre-dusk.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
