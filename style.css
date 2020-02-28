@@ -806,6 +806,71 @@ button:hover {
     padding: 3rem;
   }
 }
+
+@media only screen and (min-width: 800px) {
+  .cd-schedule {
+    width: 90%;
+    max-width: 1400px;
+    margin: 2em auto;
+  }
+  .cd-schedule::after {
+    clear: both;
+    content: "";
+    display: block;
+  }
+  .cd-schedule::before {
+    content: 'desktop';
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+  .cd-schedule .timeline {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+  }
+  .cd-schedule .timeline li {
+    position: relative;
+    height: 50px;
+  }
+  .cd-schedule .timeline li::after {
+    /* this is used to create the table horizontal lines */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #EAEAEA;
+  }
+  .cd-schedule .timeline li:last-of-type::after {
+    display: none;
+  }
+  .cd-schedule .timeline li span {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .cd-schedule .timeline li::after {
+    width: calc(100% - 60px);
+    left: 60px;
+  }
+  .cd-schedule .timeline li span {
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .cd-schedule .timeline li:nth-of-type(2n) span {
+    display: none;
+  }
+}
 /*----------------------------------------
 1.4 Button Styling
 ----------------------------------------*/
@@ -8556,4 +8621,110 @@ div ~ :last-child .progress-layout2:before {
   }
 
 
+  /* GALLERY */
+
+  #gallery {
+    padding:70px 0 90px 0;
+  }
+
+  img {
+    vertical-align: middle;
+  }
+  .img-responsive,
+  .thumbnail > img,
+  .thumbnail a > img,
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    display: block;
+    width: 100% \9;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* GALLERY IMG OVERLAY EFFCET */
+
+  .wrap {
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .wrap .overlay:after {
+    background: none repeat scroll 0 0 rgba(200, 25, 15, 0.7);
+    height: 100%;
+    content:"";
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: -100%;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 100%;
+  }
+
+  .wrap:hover .overlay:after {
+    top: 50%;
+    opacity: 1;
+  }
+
+  .wrap .overlay:before {
+    background: none repeat scroll 0 0 rgba(200, 25, 15, 0.7);
+    bottom: -100%;
+    height: 100%;
+    content:"";
+    display: block;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: all 0.6s ease 0s;
+    -moz-transition: all 0.6s ease 0s;
+    -ms-transition: all 0.6s ease 0s;
+    -o-transition: all 0.6s ease 0s;
+    transition: all 0.6s ease 0s;
+    width: 100%;
+  }
+
+  .wrap:hover .overlay:before {
+    bottom: 50%;
+    opacity: 1;
+  }
+
+  .wrap .icon {
+    color:#ffffff;
+    visibility: hidden;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    margin-top: -20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+
+  .wrap:hover .icon {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .wrap .icon a {
+    color:#ffffff;
+  }
+
+  .wrap .icon a:hover {
+    color:#333333;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
 }
